@@ -81,7 +81,13 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-
-
+	UPROPERTY(EditAnywhere, Category = "cakeTaken")
+	bool cakeTaken;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "guitarTaken")
+	bool guitarTaken;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "photoTaken")
+	bool photoTaken;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "bookTaken")
+	bool bookTaken;
 };
 

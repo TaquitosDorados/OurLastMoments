@@ -72,7 +72,6 @@ void AOurLastMomentsCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	}
 }
 
-
 void AOurLastMomentsCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
